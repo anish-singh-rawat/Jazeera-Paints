@@ -1,0 +1,10 @@
+export const userLogin = "users/signin";
+export const userGetProfile = "users/getProfile";
+export const usersForgetPassword = "/users/forgetpassword";
+export const usersLogout = "/users/logout";
+export const usersResetpassword = "/users/resetpassword";
+export const usersValidateOtp = "/users/validateotp";
+export const redirectResetPassword = "/users/redirectPage";
+export const createPermanentPassword = "/users/setpermanentpassword";
+export const twoFactorAuthEndPoint = "/users/checktwofactorauth";
+export const resendOTPAuthEndPoint = "/users/resendotp"

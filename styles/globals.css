@@ -1,0 +1,82 @@
+html,
+body {
+  min-height: 100%;
+  font-size: 85%;
+}
+
+#__next {
+  height: 100%;
+}
+
+code {
+  font-family: "Public Sans", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue";
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+code:not([class*="language-"]):before,
+code:not([class*="language-"]):after {
+  content: "`";
+}
+code[class*="language-"] {
+  padding: 0;
+}
+.react-datepicker-popper {
+  z-index: 2 !important;
+}
+/* Works for Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Works for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+.react-datepicker__year-dropdown--scrollable {
+  height: 270px !important;
+}
+.react-datepicker__navigation--years-previous {
+  display: none !important;
+}
+.css-1nsmr5k-MuiSwitch-root .MuiSwitch-thumb{
+ margin-top: -2px;
+ margin-left: -2px;
+ width:15px !important;
+ height:15px !important;
+
+}
+
+.MuiCard-root .css-1uwahl9-MuiAvatarGroup-root .MuiAvatar-root{
+  height: 32px !important;
+  width: 32px !important;
+  font-size: 12px;
+}
+
+  ::-webkit-scrollbar {
+      /* display: none; */
+  }
+
+
+  .users-list-item:last-child {
+    /* Your CSS styles go here */
+    background-color: #ffeeaa;
+    /* Add any other styles you want to apply */
+  }
+
+
+
+/* Define the style for the custom-highlight-cell class */
+.editRow{
+  background-color: red;
+}
+
+.css-127eqwa-MuiTableRow-root {
+  background: white !important;
+}

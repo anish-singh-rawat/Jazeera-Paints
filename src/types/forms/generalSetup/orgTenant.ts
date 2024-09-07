@@ -1,0 +1,16 @@
+export const defaultValues = {
+  id: "",
+  active: true,
+  altName: "",
+  code: "",
+  name: "",
+  reportingCurrency: {name:[]},
+  reportingCurrencyId: null,
+  deploymentMode: "",
+  address: "",
+  createdOn: "",
+  createdBy: "",
+  updatedOn: "",
+  updatedBy: "",
+  externalReference: "",
+};
